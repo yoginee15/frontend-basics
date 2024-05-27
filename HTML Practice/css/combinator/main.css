@@ -1,0 +1,14 @@
+/* div p{
+    background-color: aquamarine;
+}
+div > p{
+    background-color: blue;
+} */
+
+div ~ article{
+    background-color: palevioletred;
+
+}
+div + article{
+    background-color: greenyellow;
+}

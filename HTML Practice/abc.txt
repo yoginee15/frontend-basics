@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1>Heading tag</h1> 
+</body>
+</html>
+
+
+css selector:
+1. html tag / html element
+a, table, ul , p, h1
+
+p:{
+    color:'red'
+}
+
+2. Id
+#subtitle:{
+    color:'green'
+}
+
+3. class 
+.heding:{
+    color:'blue'
+}

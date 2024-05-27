@@ -1,0 +1,27 @@
+h1{
+    color: red;
+}
+
+/* child selector (>) */
+div>p{
+    color: red;
+    color: #ff0000
+}
+
+/* adjacent sibling selector (+) */
+div+p{
+    color:green;
+    color: #00ff00;
+    color: rgb(0,255,0)
+}
+
+/* general sibling selector (~) */
+div~p{
+    color:blue
+}
+
+RGB color : 0-255
+Hexa color: 6/3 : #rrggbb
+
+
+#ff22ff : white f2f

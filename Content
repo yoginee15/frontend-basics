@@ -1,0 +1,89 @@
+What is frontend development : HTML/CSS, JS/React
+
+Why frontend
+
+MERN/MEAN:Mongo E
+
+Course highlights
+Who should join
+Course details
+Course Curriculum
+About Us
+Contact US
+
+
+History:
+1989: Tim Berners-Lee : www - World wide web
+1991: Tim Berners-Lee : HTML 
+1993: Dave Ragett: HTML+
+1995: HTML 2.0
+1997: W3C HTML 3.2
+1999: HTML 4.01
+2000: XHTML 4.01
+* 2008 : WHATWAG HTML 5 : First public draft
+2012: HTML : Living standard 
+2014: HTML 5
+2016 : HTML 5.1
+2017: 5.1 : 2nd endition
+2017: HTML 5.2
+
+W3C: World Wide Web Consrtium
+
+
+
+noopener: 
+
+
+script
+search
+section
+select
+small
+section
+span
+strike
+
+
+style as attirbute : inline styling
+<h1 style='color:red'>My Heading</h1>
+
+style as tag/element : inner styling
+<head>
+    <style>
+        h1{
+            color:red
+        }
+    </style>
+<head>
+
+<link rel='stylesheet' href='./main.css'> : external styling
+
+
+
+Listing:
+Unorder list
+- list-style-type : disc, circle, square
+Order list
+- list-style-type : number, upper-roman, lower-roman, upper-alpha, lower-alpha
+
+
+Practice:
+Audio
+video
+Listing : ul, ol, dl
+Details and summary tag
+textarea
+sub, sup, cite, ins, u, em, strong, small, b, 
+span
+select
+progress
+pre , address
+nav, header, footer
+iframe
+hr
+fieldset
+dialog
+a
+abbr, acronym
+wbr
+img

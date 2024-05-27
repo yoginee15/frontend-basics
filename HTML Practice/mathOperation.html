@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    label{
+        display: inline-block;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+  </style>
+  <script>
+    function performOperation() {
+      let no1 = document.getElementById("no1").value;
+      let no2 = document.getElementById("no2").value;
+      let operations = document.getElementsByName("choice");
+      let operation = "addition";
+      for (i = 0; i < operations.length; i++) {
+        if (operations[i].checked) operation = operations[i].value;
+      }
+
+      console.log("operation", document.getElementsByName("choice"));
+      let ans = +no1 + +no2;
+      if (operation == "substraction") ans = +no1 - +no2;
+      else if (operation == "multiplication") ans = +no1 * +no2;
+      else if (operation == "division") ans = +no1 / +no2;
+      document.getElementById(
+        "output"
+      ).innerHTML = `${operation} for ${no1} and ${no2} is ${ans}`;
+    }
+  </script>
+  <body>
+    <form action="">
+      <div>
+        <label for="no1">First Number</label
+        ><input type="text" id="no1" name="firstNumber" />
+      </div>
+      <div>
+        <label for="no2">Second Number</label
+        ><input type="text" id="no2" name="secondNumber" />
+      </div>
+      <div>
+        <label for="choice" style="display: block; width: 100%; margin: 0px;">Select Operation you want to perform</label>
+        <br>
+        Addition:<input
+          type="radio"
+          id="choice"
+          name="choice"
+          value="addition"
+        />
+        <br>
+        Substraction:<input
+          type="radio"
+          name="choice"
+          id="choice"
+          value="substraction"
+        />
+        <br>
+        Multiplication:<input
+          type="radio"
+          name="choice"
+          id="choice"
+          value="multiplication"
+        />
+        <br>
+        Division:<input
+          type="radio"
+          name="choice"
+          id="choice"
+          value="division"
+        />
+      </div>
+      <input
+        type="button"
+        name="operation"
+        value="Perform Operation"
+        onclick="performOperation()"
+      />
+    </form>
+    <div id="output"></div>
+  </body>
+</html>

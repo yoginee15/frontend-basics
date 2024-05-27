@@ -1,0 +1,48 @@
+/* nav, main{
+    display: inline-block;
+} */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: gray;
+    /* width: 150px; */
+    text-align: center;
+}
+ul li{
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 22%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    margin: 0; 
+
+}
+ul li a:hover{
+    color: white;
+    background-color: black;
+}uy
+ul li a:active{
+    color: white;
+    background-color: green;
+}
+.drpdwn-content{
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+.drpdwn-content li{
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+}
+.main-menu:hover .drpdwn-content{
+    display: block;
+}
